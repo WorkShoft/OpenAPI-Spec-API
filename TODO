@@ -1,0 +1,3 @@
+1. Check which fields are nullable -> if nullable, set null=True
+2. Make all models inherit from BaseModel
+3. Analyze models for inheritance / mixin refactoring opportunities
