@@ -50,7 +50,7 @@ services:
       - ./config:/app/config:z
       - ./openapi_spec_api:/app/openapi_spec_api:z
     ports:
-      - "9000:9000"
+      - "9001:9001"
     command: /start-docs
 
   mailhog:
